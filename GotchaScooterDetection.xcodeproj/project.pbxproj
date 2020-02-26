@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2666E6240719C500956139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E5240719C500956139 /* AppDelegate.swift */; };
+		ED2666E8240719C500956139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E7240719C500956139 /* SceneDelegate.swift */; };
+		ED2666ED240719C500956139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2666EB240719C500956139 /* Main.storyboard */; };
+		ED2666EF240719CE00956139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2666EE240719CE00956139 /* Assets.xcassets */; };
+		ED2666F2240719CE00956139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2666F0240719CE00956139 /* LaunchScreen.storyboard */; };
+		ED2666FD240719CE00956139 /* GotchaScooterDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666FC240719CE00956139 /* GotchaScooterDetectionTests.swift */; };
+		ED266708240719CE00956139 /* GotchaScooterDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED266707240719CE00956139 /* GotchaScooterDetectionUITests.swift */; };
+		ED26671624071CAD00956139 /* EnableDetectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED26671524071CAD00956139 /* EnableDetectionScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED2666F9240719CE00956139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED2666DA240719C500956139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED2666E1240719C500956139;
+			remoteInfo = GotchaScooterDetection;
+		};
+		ED266704240719CE00956139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED2666DA240719C500956139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED2666E1240719C500956139;
+			remoteInfo = GotchaScooterDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED2666E2240719C500956139 /* GotchaScooterDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotchaScooterDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2666E5240719C500956139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED2666E7240719C500956139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED2666EC240719C500956139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2666EE240719CE00956139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2666F1240719CE00956139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2666F3240719CE00956139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2666F8240719CE00956139 /* GotchaScooterDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GotchaScooterDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2666FC240719CE00956139 /* GotchaScooterDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotchaScooterDetectionTests.swift; sourceTree = "<group>"; };
+		ED2666FE240719CE00956139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED266703240719CE00956139 /* GotchaScooterDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GotchaScooterDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED266707240719CE00956139 /* GotchaScooterDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotchaScooterDetectionUITests.swift; sourceTree = "<group>"; };
+		ED266709240719CE00956139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED26671524071CAD00956139 /* EnableDetectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableDetectionScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED2666DF240719C500956139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2666F5240719CE00956139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED266700240719CE00956139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED2666D9240719C400956139 = {
+			isa = PBXGroup;
+			children = (
+				ED2666E4240719C500956139 /* GotchaScooterDetection */,
+				ED2666FB240719CE00956139 /* GotchaScooterDetectionTests */,
+				ED266706240719CE00956139 /* GotchaScooterDetectionUITests */,
+				ED2666E3240719C500956139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED2666E3240719C500956139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED2666E2240719C500956139 /* GotchaScooterDetection.app */,
+				ED2666F8240719CE00956139 /* GotchaScooterDetectionTests.xctest */,
+				ED266703240719CE00956139 /* GotchaScooterDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED2666E4240719C500956139 /* GotchaScooterDetection */ = {
+			isa = PBXGroup;
+			children = (
+				ED2666E5240719C500956139 /* AppDelegate.swift */,
+				ED2666E7240719C500956139 /* SceneDelegate.swift */,
+				ED26671524071CAD00956139 /* EnableDetectionScreen.swift */,
+				ED2666EB240719C500956139 /* Main.storyboard */,
+				ED2666EE240719CE00956139 /* Assets.xcassets */,
+				ED2666F0240719CE00956139 /* LaunchScreen.storyboard */,
+				ED2666F3240719CE00956139 /* Info.plist */,
+			);
+			path = GotchaScooterDetection;
+			sourceTree = "<group>";
+		};
+		ED2666FB240719CE00956139 /* GotchaScooterDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2666FC240719CE00956139 /* GotchaScooterDetectionTests.swift */,
+				ED2666FE240719CE00956139 /* Info.plist */,
+			);
+			path = GotchaScooterDetectionTests;
+			sourceTree = "<group>";
+		};
+		ED266706240719CE00956139 /* GotchaScooterDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED266707240719CE00956139 /* GotchaScooterDetectionUITests.swift */,
+				ED266709240719CE00956139 /* Info.plist */,
+			);
+			path = GotchaScooterDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED2666E1240719C500956139 /* GotchaScooterDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED26670C240719CE00956139 /* Build configuration list for PBXNativeTarget "GotchaScooterDetection" */;
+			buildPhases = (
+				ED2666DE240719C500956139 /* Sources */,
+				ED2666DF240719C500956139 /* Frameworks */,
+				ED2666E0240719C500956139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GotchaScooterDetection;
+			productName = GotchaScooterDetection;
+			productReference = ED2666E2240719C500956139 /* GotchaScooterDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED2666F7240719CE00956139 /* GotchaScooterDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED26670F240719CE00956139 /* Build configuration list for PBXNativeTarget "GotchaScooterDetectionTests" */;
+			buildPhases = (
+				ED2666F4240719CE00956139 /* Sources */,
+				ED2666F5240719CE00956139 /* Frameworks */,
+				ED2666F6240719CE00956139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2666FA240719CE00956139 /* PBXTargetDependency */,
+			);
+			name = GotchaScooterDetectionTests;
+			productName = GotchaScooterDetectionTests;
+			productReference = ED2666F8240719CE00956139 /* GotchaScooterDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED266702240719CE00956139 /* GotchaScooterDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED266712240719CE00956139 /* Build configuration list for PBXNativeTarget "GotchaScooterDetectionUITests" */;
+			buildPhases = (
+				ED2666FF240719CE00956139 /* Sources */,
+				ED266700240719CE00956139 /* Frameworks */,
+				ED266701240719CE00956139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED266705240719CE00956139 /* PBXTargetDependency */,
+			);
+			name = GotchaScooterDetectionUITests;
+			productName = GotchaScooterDetectionUITests;
+			productReference = ED266703240719CE00956139 /* GotchaScooterDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED2666DA240719C500956139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "AESC Capstone Team 25";
+				TargetAttributes = {
+					ED2666E1240719C500956139 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					ED2666F7240719CE00956139 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = ED2666E1240719C500956139;
+					};
+					ED266702240719CE00956139 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = ED2666E1240719C500956139;
+					};
+				};
+			};
+			buildConfigurationList = ED2666DD240719C500956139 /* Build configuration list for PBXProject "GotchaScooterDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED2666D9240719C400956139;
+			productRefGroup = ED2666E3240719C500956139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED2666E1240719C500956139 /* GotchaScooterDetection */,
+				ED2666F7240719CE00956139 /* GotchaScooterDetectionTests */,
+				ED266702240719CE00956139 /* GotchaScooterDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED2666E0240719C500956139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2666F2240719CE00956139 /* LaunchScreen.storyboard in Resources */,
+				ED2666EF240719CE00956139 /* Assets.xcassets in Resources */,
+				ED2666ED240719C500956139 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2666F6240719CE00956139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED266701240719CE00956139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED2666DE240719C500956139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED26671624071CAD00956139 /* EnableDetectionScreen.swift in Sources */,
+				ED2666E6240719C500956139 /* AppDelegate.swift in Sources */,
+				ED2666E8240719C500956139 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2666F4240719CE00956139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2666FD240719CE00956139 /* GotchaScooterDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2666FF240719CE00956139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED266708240719CE00956139 /* GotchaScooterDetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED2666FA240719CE00956139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED2666E1240719C500956139 /* GotchaScooterDetection */;
+			targetProxy = ED2666F9240719CE00956139 /* PBXContainerItemProxy */;
+		};
+		ED266705240719CE00956139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED2666E1240719C500956139 /* GotchaScooterDetection */;
+			targetProxy = ED266704240719CE00956139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED2666EB240719C500956139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2666EC240719C500956139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2666F0240719CE00956139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2666F1240719CE00956139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED26670A240719CE00956139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED26670B240719CE00956139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED26670D240719CE00956139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GotchaScooterDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AESC25.GotchaScooterDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED26670E240719CE00956139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GotchaScooterDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AESC25.GotchaScooterDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED266710240719CE00956139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GotchaScooterDetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AESC25.GotchaScooterDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GotchaScooterDetection.app/GotchaScooterDetection";
+			};
+			name = Debug;
+		};
+		ED266711240719CE00956139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GotchaScooterDetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AESC25.GotchaScooterDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GotchaScooterDetection.app/GotchaScooterDetection";
+			};
+			name = Release;
+		};
+		ED266713240719CE00956139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GotchaScooterDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AESC25.GotchaScooterDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GotchaScooterDetection;
+			};
+			name = Debug;
+		};
+		ED266714240719CE00956139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GotchaScooterDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AESC25.GotchaScooterDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GotchaScooterDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED2666DD240719C500956139 /* Build configuration list for PBXProject "GotchaScooterDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED26670A240719CE00956139 /* Debug */,
+				ED26670B240719CE00956139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED26670C240719CE00956139 /* Build configuration list for PBXNativeTarget "GotchaScooterDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED26670D240719CE00956139 /* Debug */,
+				ED26670E240719CE00956139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED26670F240719CE00956139 /* Build configuration list for PBXNativeTarget "GotchaScooterDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED266710240719CE00956139 /* Debug */,
+				ED266711240719CE00956139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED266712240719CE00956139 /* Build configuration list for PBXNativeTarget "GotchaScooterDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED266713240719CE00956139 /* Debug */,
+				ED266714240719CE00956139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED2666DA240719C500956139 /* Project object */;
+}
