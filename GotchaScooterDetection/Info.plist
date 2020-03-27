@@ -58,5 +58,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bluetooth will be used to scan for nearby Gotcha scooters.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth will be used to scan for nearby Gotcha scooters.</string>
 </dict>
 </plist>

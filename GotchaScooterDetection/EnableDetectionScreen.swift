@@ -12,7 +12,7 @@ import CoreBluetooth
 class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPeripheralDelegate {
     
     private var centralManager: CBCentralManager!
-    var peripheral: CBPeripheral?
+    //var peripheral: CBPeripheral?
     
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         if central.state == .poweredOn{
