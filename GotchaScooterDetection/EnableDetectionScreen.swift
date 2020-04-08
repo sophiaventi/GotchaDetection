@@ -8,11 +8,12 @@
 
 import UIKit
 import CoreBluetooth
+import UserNotifications
 
 class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPeripheralDelegate {
     
     private var centralManager: CBCentralManager!
-    //var peripheral: CBPeripheral?
+    private var enabled:Bool = false
     
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         if central.state == .poweredOn{
@@ -22,25 +23,40 @@ class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPerip
         else{
             print("Bluetooth is not active")
         }
+        
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in
+        })
         centralManager = CBCentralManager(delegate: self, queue: nil, options: nil)
     }
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-
+        
         print("\nName    :\(peripheral.name ?? "(No name)")")
         print("RSSI :\(RSSI)")
         for ad in advertisementData{
             print("AD Data: \(ad)")
         }
+        
+        
     }
-    @IBAction func startDetection(_ sender: UIButton) {
-        // Start Bluetooth Scanning
-        // switch screen
+    @IBAction func toggleDetection(_ sender: UIButton) {
+        enabled = !enabled
+        //Will move to appropiate place later
+        let content = UNMutableNotificationContent()
+        content.title = "Scooter Detected!"
+        content.subtitle = "You are approaching a scooter"
+        content.body = "Please be caution, you are approaching a scooter"
+        content.badge = 1
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        let request = UNNotificationRequest(identifier: "scooterDetected", content: content, trigger: trigger)
+        
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
+    
     
 }

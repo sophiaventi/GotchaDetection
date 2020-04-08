@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4081CB50243E519D005BE9DA /* Subclasses in Resources */ = {isa = PBXBuildFile; fileRef = 4081CB4F243E519C005BE9DA /* Subclasses */; };
 		ED2666E6240719C500956139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E5240719C500956139 /* AppDelegate.swift */; };
 		ED2666E8240719C500956139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E7240719C500956139 /* SceneDelegate.swift */; };
 		ED2666ED240719C500956139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2666EB240719C500956139 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4081CB4F243E519C005BE9DA /* Subclasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subclasses; sourceTree = "<group>"; };
 		ED2666E2240719C500956139 /* GotchaScooterDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotchaScooterDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2666E5240719C500956139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED2666E7240719C500956139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4081CB482434FBC0005BE9DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		ED2666D9240719C400956139 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +108,8 @@
 		ED2666E4240719C500956139 /* GotchaScooterDetection */ = {
 			isa = PBXGroup;
 			children = (
+				4081CB4F243E519C005BE9DA /* Subclasses */,
+				4081CB482434FBC0005BE9DA /* Supporting Files */,
 				ED2666E5240719C500956139 /* AppDelegate.swift */,
 				ED2666E7240719C500956139 /* SceneDelegate.swift */,
 				ED26671524071CAD00956139 /* EnableDetectionScreen.swift */,
@@ -234,6 +245,7 @@
 			files = (
 				ED2666F2240719CE00956139 /* LaunchScreen.storyboard in Resources */,
 				ED2666EF240719CE00956139 /* Assets.xcassets in Resources */,
+				4081CB50243E519D005BE9DA /* Subclasses in Resources */,
 				ED2666ED240719C500956139 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
