@@ -15,18 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4x-Fe-vjx" customClass="MSUEnableSearchButton" customModule="GotchaScooterDetection">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4x-Fe-vjx" customClass="EnableDetectionButton" customModule="GotchaScooterDetection" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="Enable" backgroundImage="Celestial">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Enable"/>
                                 <connections>
                                     <action selector="toggleDetection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8j-U5-hK4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gotcha Scooter Detection" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="at2-mC-OO2">
-                                <rect key="frame" x="20" y="170" width="374" height="66"/>
+                                <rect key="frame" x="20" y="170" width="352" height="66"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -35,13 +33,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="at2-mC-OO2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9dR-II-I34"/>
-                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="EqH-Xz-3sb"/>
+                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JPg-Oc-Uuu"/>
                             <constraint firstItem="at2-mC-OO2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="LKt-R5-ccc"/>
-                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LMI-lp-n99"/>
-                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MCg-2g-qEe"/>
-                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WT7-O0-pDH"/>
-                            <constraint firstItem="at2-mC-OO2" firstAttribute="centerX" secondItem="d4x-Fe-vjx" secondAttribute="centerX" id="XbK-xn-1cn"/>
+                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bZ4-jC-i7x"/>
+                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l6x-xv-p5e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="at2-mC-OO2" secondAttribute="bottom" constant="626" id="yDD-Cn-muI"/>
+                            <constraint firstItem="d4x-Fe-vjx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="zXU-gQ-v83"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -51,7 +48,4 @@
             <point key="canvasLocation" x="-3342.0289855072465" y="-143.30357142857142"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Celestial" width="1080" height="1920"/>
-    </resources>
 </document>

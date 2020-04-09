@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4081CB50243E519D005BE9DA /* Subclasses in Resources */ = {isa = PBXBuildFile; fileRef = 4081CB4F243E519C005BE9DA /* Subclasses */; };
+		4081CB52243FDAAA005BE9DA /* EnableDetectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081CB51243FDAAA005BE9DA /* EnableDetectionButton.swift */; };
 		ED2666E6240719C500956139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E5240719C500956139 /* AppDelegate.swift */; };
 		ED2666E8240719C500956139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E7240719C500956139 /* SceneDelegate.swift */; };
 		ED2666ED240719C500956139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2666EB240719C500956139 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		4081CB4F243E519C005BE9DA /* Subclasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subclasses; sourceTree = "<group>"; };
+		4081CB51243FDAAA005BE9DA /* EnableDetectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EnableDetectionButton.swift; path = Subclasses/EnableDetectionButton.swift; sourceTree = "<group>"; };
 		ED2666E2240719C500956139 /* GotchaScooterDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotchaScooterDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2666E5240719C500956139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED2666E7240719C500956139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				ED2666EE240719CE00956139 /* Assets.xcassets */,
 				ED2666F0240719CE00956139 /* LaunchScreen.storyboard */,
 				ED2666F3240719CE00956139 /* Info.plist */,
+				4081CB51243FDAAA005BE9DA /* EnableDetectionButton.swift */,
 			);
 			path = GotchaScooterDetection;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4081CB52243FDAAA005BE9DA /* EnableDetectionButton.swift in Sources */,
 				ED26671624071CAD00956139 /* EnableDetectionScreen.swift in Sources */,
 				ED2666E6240719C500956139 /* AppDelegate.swift in Sources */,
 				ED2666E8240719C500956139 /* SceneDelegate.swift in Sources */,
