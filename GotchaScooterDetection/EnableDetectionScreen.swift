@@ -18,7 +18,9 @@ class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPerip
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         if central.state == .poweredOn{
             print("Bluetooth is On")
-            centralManager.scanForPeripherals(withServices: nil, options: nil)
+            if(enabled){
+                centralManager.scanForPeripherals(withServices: [CBUUID(string: "0000180F-0000-1000-8000-00805F9B34FB")], options: nil)
+            }
         }
         else{
             print("Bluetooth is not active")
@@ -34,25 +36,36 @@ class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPerip
     }
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-        
+        let doubleRSSI = RSSI as! Double
+        let exponent = (-69.0-doubleRSSI)/20.0
+        let distance = pow(10, exponent)
+        if(distance<2.0){
+            sendNotification()
+        }
         print("\nName    :\(peripheral.name ?? "(No name)")")
         print("RSSI :\(RSSI)")
-        for ad in advertisementData{
-            print("AD Data: \(ad)")
-        }
-        
+        print("Distance: \(distance)")
         
     }
     @IBAction func toggleDetection(_ sender: UIButton) {
+        sendNotification()
         enabled = !enabled
-        //Will move to appropiate place later
+        if enabled {
+            centralManager.scanForPeripherals(withServices: nil, options: nil)
+        }
+        
+    }
+    
+    func sendNotification(){
+        //Is currently not called yet
         let content = UNMutableNotificationContent()
         content.title = "Scooter Detected!"
-        content.subtitle = "You are approaching a scooter"
         content.body = "Please be caution, you are approaching a scooter"
         content.badge = 1
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "beep.mp3"))
         
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+    
         let request = UNNotificationRequest(identifier: "scooterDetected", content: content, trigger: trigger)
         
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)

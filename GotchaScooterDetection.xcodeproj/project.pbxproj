@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4081CB50243E519D005BE9DA /* Subclasses in Resources */ = {isa = PBXBuildFile; fileRef = 4081CB4F243E519C005BE9DA /* Subclasses */; };
 		4081CB52243FDAAA005BE9DA /* EnableDetectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081CB51243FDAAA005BE9DA /* EnableDetectionButton.swift */; };
+		4081CB542444EEB4005BE9DA /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4081CB532444EEB4005BE9DA /* beep.mp3 */; };
 		ED2666E6240719C500956139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E5240719C500956139 /* AppDelegate.swift */; };
 		ED2666E8240719C500956139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2666E7240719C500956139 /* SceneDelegate.swift */; };
 		ED2666ED240719C500956139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2666EB240719C500956139 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		4081CB4F243E519C005BE9DA /* Subclasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subclasses; sourceTree = "<group>"; };
 		4081CB51243FDAAA005BE9DA /* EnableDetectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EnableDetectionButton.swift; path = Subclasses/EnableDetectionButton.swift; sourceTree = "<group>"; };
+		4081CB532444EEB4005BE9DA /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 		ED2666E2240719C500956139 /* GotchaScooterDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotchaScooterDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2666E5240719C500956139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED2666E7240719C500956139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		4081CB482434FBC0005BE9DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4081CB532444EEB4005BE9DA /* beep.mp3 */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				ED2666F2240719CE00956139 /* LaunchScreen.storyboard in Resources */,
 				ED2666EF240719CE00956139 /* Assets.xcassets in Resources */,
 				4081CB50243E519D005BE9DA /* Subclasses in Resources */,
+				4081CB542444EEB4005BE9DA /* beep.mp3 in Resources */,
 				ED2666ED240719C500956139 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

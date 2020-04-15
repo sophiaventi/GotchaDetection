@@ -10,8 +10,7 @@ import UIKit
 
 class EnableDetectionButton: UIButton {
 
-    var isOn = false
-    let twitterBlue = UIColor(red: 29.0/255.0, green: 161.0/255.0, blue: 242.0/255.0, alpha: 1.0)
+    var isOn = true
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -24,8 +23,9 @@ class EnableDetectionButton: UIButton {
     }
     
     func initButton() {
-        let image = UIImage(named: "Maldives.png") as UIImage?
+        let image = UIImage(named: "Celestial.png") as UIImage?
         setBackgroundImage(image, for: .normal)
+        //setTitle("Enable", for: .normal)
         setTitleColor(.white, for: .normal)
         addTarget(self, action: #selector(EnableDetectionButton.buttonPressed), for: .touchUpInside)
     }
@@ -38,7 +38,7 @@ class EnableDetectionButton: UIButton {
         
         isOn = bool
         let title = bool ? "Enable" : "Disable"
-        let image = bool ? UIImage(named: "Maldives.png") as UIImage? : UIImage(named: "Purplepine.png") as UIImage?
+        let image = bool ? UIImage(named: "Celestial.png") as UIImage? : UIImage(named: "Purplepine.png") as UIImage?
         
         setTitle(title, for: .normal)
         setBackgroundImage(image, for: .normal)
