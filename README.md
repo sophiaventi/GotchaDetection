@@ -10,6 +10,6 @@ The GotchaScooterDetection.xcodeproj folder contains settings for the up to date
 Instructions for use are: 
   1. Download this repo onto a Mac with XCode;
   2. Plug in an iPhone to your computer;
-  3. Select it as the devie to run the application on, then press run;
-  4. Allow access from the developer ID on test iPhone by going to Settings>General>Profiles&Device Management.
+  3. Select it as the device to run the application on, then press run;
+  4. Allow access from the developer ID on the test iPhone by going to Settings>General>Profiles & Device Management.
 
