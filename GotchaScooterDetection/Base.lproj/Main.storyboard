@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to toggle scooter detection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf4-yO-Zly">
-                                <rect key="frame" x="87" y="194" width="240" height="21"/>
+                                <rect key="frame" x="87" y="288" width="240" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Ndq-6k-Kea"/>
                                 </constraints>
@@ -43,12 +43,12 @@
                         <constraints>
                             <constraint firstItem="at2-mC-OO2" firstAttribute="centerX" secondItem="yf4-yO-Zly" secondAttribute="centerX" id="BpH-7v-OXn"/>
                             <constraint firstItem="d4x-Fe-vjx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JPg-Oc-Uuu"/>
-                            <constraint firstItem="yf4-yO-Zly" firstAttribute="top" secondItem="at2-mC-OO2" secondAttribute="bottom" constant="8" id="Wfb-rv-QqK"/>
+                            <constraint firstItem="yf4-yO-Zly" firstAttribute="top" secondItem="at2-mC-OO2" secondAttribute="bottom" constant="102" id="Wfb-rv-QqK"/>
                             <constraint firstItem="d4x-Fe-vjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bZ4-jC-i7x"/>
                             <constraint firstItem="at2-mC-OO2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="bsN-G4-t54"/>
                             <constraint firstItem="at2-mC-OO2" firstAttribute="centerX" secondItem="d4x-Fe-vjx" secondAttribute="centerX" id="cVY-JP-WZL"/>
                             <constraint firstItem="d4x-Fe-vjx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l6x-xv-p5e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yf4-yO-Zly" secondAttribute="bottom" constant="647" id="rl1-Kz-ghb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yf4-yO-Zly" secondAttribute="bottom" constant="553" id="rl1-Kz-ghb"/>
                             <constraint firstItem="d4x-Fe-vjx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="zXU-gQ-v83"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

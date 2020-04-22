@@ -20,7 +20,7 @@ class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPerip
         if central.state == .poweredOn{
             print("Bluetooth is On")
             if(enabled){
-                // Bluetooth scanning is don using this function
+                // Bluetooth scanning is done using this function
                 centralManager.scanForPeripherals(withServices: nil, options: nil)
             }
         }
@@ -61,13 +61,13 @@ class EnableDetectionScreen: UIViewController, CBCentralManagerDelegate, CBPerip
         let content = UNMutableNotificationContent()
         // Building notification
         content.title = "Scooter Detected!"
-        content.body = "Please be caution, you are approaching a scooter"
-        content.badge = 1
+        content.body = "Please be cautious, you are approaching a scooter"
+        
         //Using a sound different from the defualt lets users know a the notification is from our app
         content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "beep.mp3"))
         
         // Building the notification request
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         
         let request = UNNotificationRequest(identifier: "scooterDetected", content: content, trigger: trigger)
         
